@@ -1,0 +1,1 @@
+document.getElementById('rcnt').style.margin='0 auto';

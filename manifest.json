@@ -1,0 +1,15 @@
+{
+
+    "manifest_version": 2,
+    "name": "Center Google Search results",
+    "version": "1.0",
+    "description": "Moves the search results from the left of the screen to the center of the screen. Works only on google.com",
+    "content_scripts": [
+      {
+        "matches": ["*://*.google.com/search*"],
+        "js": ["center.js"]
+      }
+    ]
+  
+  }
+  
